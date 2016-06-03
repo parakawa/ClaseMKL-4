@@ -1,0 +1,7 @@
+function tuitear(){
+	
+}
+
+function clean(){
+	
+}

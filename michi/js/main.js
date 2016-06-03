@@ -3,8 +3,9 @@ $(document).ready(function(){
 	$(".casilla").on("click",marcar);
 		$(this).html("x")
 
-		$(".reset").on("click",function(e){
+		$(".reset").on("click",function(){
 		$(".casilla").html("")
+		i=0;
 	});
 
 	$(".casilla").on("click",function(e){
