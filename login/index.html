@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="../tweet/css/bootstrap.css">
+	<link rel="icon" href="login.png" sizes="16x16">
+</head>
+<body>
+
+
+
+
+	<div class="container" style="margin-top:50px">
+		<h2 class="text-center" style="color:#5CB85C">Con cuenta</h1>
+		<br>
+		<form class="form-horizontal">
+		  
+		    <label class="col-sm-4 control-label">Usuario</label>
+		    <div class="col-sm-5">
+		      <input type="text" id="user" class="form-control" placeholder="Usuario">
+		 	</div>
+		 	<br>
+		 	<br>
+		    <label for="inputPassword3" class="col-sm-4 control-label">Password</label>
+		    <div class="col-sm-5">
+		      <input type="password" id="clave" class="form-control" id="inputPassword3" placeholder="Password">
+		    </div>
+		    <br>
+		    <br>
+		  <div class="form-group">
+		    <div class="text-center">
+		      <button type="submit" class="btn btn-success" onclick="entrar()">Entrar</button>
+		    </div>
+		  </div>
+		</form>
+	</div>
+
+
+
+
+
+	<div class="container" style="margin-top:50px">
+		<h2 class="text-center" style="color:#EE6E73">Sin Cuenta</h1>
+		<br>
+		<form class="form-horizontal">
+		  
+		    <label class="col-sm-4 control-label">Nuevo Usuario</label>
+		    <div class="col-sm-5">
+		      <input type="text" id="newuser" class="form-control" placeholder="Nuevo Usuario">
+		 	</div>
+		 	<br>
+		 	<br>
+		    <label for="inputPassword3" class="col-sm-4 control-label">Nuevo Password</label>
+		    <div class="col-sm-5">
+		      <input type="password" id="newclave" class="form-control" id="inputPassword3" placeholder="Nuevo Password">
+		    </div>
+		    <br>
+		    <br>
+		  <div class="form-group">
+		    <div class="text-center">
+		      <button type="submit" class="btn btn-danger" onclick="crear()">Crear Cuenta</button>
+		    </div>
+		  </div>
+		</form>
+	</div>
+
+
+
+	<script src="js/login.js"></script>
+</body>
+</html>
